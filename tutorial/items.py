@@ -12,3 +12,8 @@ class DmozItem(Item):
     link = Field()
     desc = Field()
 
+class WatchItem(Item):
+    # define the fields for your item here like:
+    # name = Field()
+    name = Field()
+    price = Field()
