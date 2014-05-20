@@ -17,4 +17,6 @@ class WatchItem(Item):
     # name = Field()
     name = Field()
     price = Field()
+    brand = Field()
+    brandurl = Field()
     imgUrl = Field()
