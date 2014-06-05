@@ -49,3 +49,6 @@ Input:
 scrapy crawl YOURCRAWLNAME
 
 and you can download whatever information you want from Internet!
+
+or scrapy crawl YOURCRAWLNAME -o items.json -t json
+to export your extract data in the format of json
